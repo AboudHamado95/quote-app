@@ -1,35 +1,16 @@
+import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/db/db_helper.dart';
-import 'package:flutter_app3/services/notification_services.dart';
-import 'package:flutter_app3/services/theme_services.dart';
-import 'package:flutter_app3/ui/pages/add_task_page.dart';
-import 'package:flutter_app3/ui/pages/home_page.dart';
-import 'package:flutter_app3/ui/pages/notification_screen.dart';
-import 'package:flutter_app3/ui/theme.dart';
-import 'package:flutter_app3/ui/widgets/task_tile.dart';
-import 'package:get/get_navigation/get_navigation.dart';
-import 'package:get_storage/get_storage.dart';
+import 'package:flutter_app3/app.dart';
+import 'package:flutter_app3/bloc_observer.dart';
+import 'package:flutter_app3/injection_container.dart' as injector;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  NotifyHelper().initializeNotification();
-  await DBHelper.initDb();
-  await GetStorage.init();
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return GetMaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: Themes.light,
-      darkTheme: Themes.dark,
-      themeMode: ThemeServices().theme,
-      home: const HomePage(),
-    );
-  }
+  await injector.init();
+  BlocOverrides.runZoned(
+    () {
+      runApp(const MyApp());
+    },
+    blocObserver: MyBlocObserver(),
+  );
 }
