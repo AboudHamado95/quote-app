@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
-import 'package:flutter_app3/features/quote/core/errors/failures.dart';
-import 'package:flutter_app3/features/quote/core/usecases/usecases.dart';
+import 'package:flutter_app3/core/errors/failures.dart';
+import 'package:flutter_app3/core/usecases/usecases.dart';
 import 'package:flutter_app3/features/splash/domain/repositories/lang_repository.dart';
 
 class GetSavedLangUseCase implements UseCase<String, NoParams> {

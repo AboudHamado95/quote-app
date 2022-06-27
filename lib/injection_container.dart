@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_app3/features/quote/core/api/api_consumer.dart';
-import 'package:flutter_app3/features/quote/core/api/api_interceptors.dart';
-import 'package:flutter_app3/features/quote/core/api/dio_consumer.dart';
-import 'package:flutter_app3/features/quote/core/network/network_info.dart';
+import 'package:flutter_app3/core/api/api_consumer.dart';
+import 'package:flutter_app3/core/api/api_interceptors.dart';
+import 'package:flutter_app3/core/api/dio_consumer.dart';
+import 'package:flutter_app3/core/network/network_info.dart';
 import 'package:flutter_app3/features/quote/data/datasources/random_quote_local_data_source.dart';
 import 'package:flutter_app3/features/quote/data/datasources/random_quote_remote_data_source.dart';
 import 'package:flutter_app3/features/quote/data/repositories/quote_repository_impl.dart';

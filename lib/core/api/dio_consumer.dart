@@ -3,12 +3,12 @@ import 'dart:io';
 
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_app3/features/quote/core/api/api_interceptors.dart';
+import 'package:flutter_app3/core/api/api_interceptors.dart';
 import 'package:flutter_app3/injection_container.dart';
-import 'package:flutter_app3/features/quote/core/api/api_consumer.dart';
-import 'package:flutter_app3/features/quote/core/api/end_points.dart';
-import 'package:flutter_app3/features/quote/core/api/status_code.dart';
-import 'package:flutter_app3/features/quote/core/errors/exceptions.dart';
+import 'package:flutter_app3/core/api/api_consumer.dart';
+import 'package:flutter_app3/core/api/end_points.dart';
+import 'package:flutter_app3/core/api/status_code.dart';
+import 'package:flutter_app3/core/errors/exceptions.dart';
 class DioConsumer implements ApiConsumer {
   final Dio client;
   DioConsumer({required this.client}) {

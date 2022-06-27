@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/features/quote/config/routes/app_routes.dart';
-import 'package:flutter_app3/features/quote/core/utils/assets_manager.dart';
+import 'package:flutter_app3/config/routes/app_routes.dart';
+import 'package:flutter_app3/core/utils/assets_manager.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

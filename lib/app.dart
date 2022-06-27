@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/features/quote/config/locale/app_localizations_setup.dart';
-import 'package:flutter_app3/features/quote/config/routes/app_routes.dart';
-import 'package:flutter_app3/features/quote/config/themes/app_theme.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/config/locale/app_localizations_setup.dart';
+import 'package:flutter_app3/config/routes/app_routes.dart';
+import 'package:flutter_app3/config/themes/app_theme.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:flutter_app3/injection_container.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_app3/features/splash/presentation/cubit/locale_cubit.dart';

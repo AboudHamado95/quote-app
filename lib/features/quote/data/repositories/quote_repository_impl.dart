@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_app3/features/quote/core/errors/exceptions.dart';
-import 'package:flutter_app3/features/quote/core/errors/failures.dart';
-import 'package:flutter_app3/features/quote/core/network/network_info.dart';
+import 'package:flutter_app3/core/errors/exceptions.dart';
+import 'package:flutter_app3/core/errors/failures.dart';
+import 'package:flutter_app3/core/network/network_info.dart';
 import 'package:flutter_app3/features/quote/data/datasources/random_quote_local_data_source.dart';
 import 'package:flutter_app3/features/quote/data/datasources/random_quote_remote_data_source.dart';
 import 'package:flutter_app3/features/quote/domain/entities/quote.dart';

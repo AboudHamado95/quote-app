@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/features/quote/config/locale/app_localizations.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_colors.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/config/locale/app_localizations.dart';
+import 'package:flutter_app3/core/utils/app_colors.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:flutter_app3/features/quote/presentation/cubit/quote_cubit.dart';
 import 'package:flutter_app3/features/quote/presentation/cubit/quote_state.dart';
 import 'package:flutter_app3/features/quote/presentation/widgets/quote_content.dart';

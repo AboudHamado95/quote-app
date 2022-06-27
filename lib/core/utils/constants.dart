@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_colors.dart';
+import 'package:flutter_app3/core/utils/app_colors.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Constants {

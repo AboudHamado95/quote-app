@@ -1,5 +1,5 @@
-import 'package:flutter_app3/features/quote/core/api/api_consumer.dart';
-import 'package:flutter_app3/features/quote/core/api/end_points.dart';
+import 'package:flutter_app3/core/api/api_consumer.dart';
+import 'package:flutter_app3/core/api/end_points.dart';
 import 'package:flutter_app3/features/quote/data/models/quote_model.dart';
 
 

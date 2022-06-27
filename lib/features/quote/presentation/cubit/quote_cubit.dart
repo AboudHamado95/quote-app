@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:dartz/dartz.dart';
-import 'package:flutter_app3/features/quote/core/errors/failures.dart';
-import 'package:flutter_app3/features/quote/core/usecases/usecases.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/core/errors/failures.dart';
+import 'package:flutter_app3/core/usecases/usecases.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:flutter_app3/features/quote/domain/entities/quote.dart';
 import 'package:flutter_app3/features/quote/domain/usecases/get_random_quote.dart';
 import 'package:flutter_app3/features/quote/presentation/cubit/quote_state.dart';

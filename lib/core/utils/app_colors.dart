@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app3/features/quote/core/utils/hex_color.dart';
+import 'package:flutter_app3/core/utils/hex_color.dart';
 
 class AppColors {
   static Color primary = HexColor('#202053');

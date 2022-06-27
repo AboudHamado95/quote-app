@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app3/features/splash/presentation/screens/splash_screen.dart';
 import 'package:flutter_app3/injection_container.dart';
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:flutter_app3/features/quote/presentation/screens/quote_screen.dart';
 import 'package:flutter_app3/features/quote/presentation/cubit/quote_cubit.dart';
 

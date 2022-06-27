@@ -1,4 +1,4 @@
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class LangLocalDataSource {

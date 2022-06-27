@@ -2,9 +2,9 @@ import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app3/features/quote/core/usecases/usecases.dart';
+import 'package:flutter_app3/core/usecases/usecases.dart';
 
-import 'package:flutter_app3/features/quote/core/utils/app_strings.dart';
+import 'package:flutter_app3/core/utils/app_strings.dart';
 import 'package:flutter_app3/features/splash/domain/usecases/change_lang.dart';
 import 'package:flutter_app3/features/splash/domain/usecases/get_saved_lang.dart';
 
